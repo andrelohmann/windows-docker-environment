@@ -1,34 +1,48 @@
 # windows-docker-environment
 The perfect windows setup for developing with containers
 
-Install WSL2
-https://docs.microsoft.com/en-us/windows/wsl/install
+## Install WSL2
 
-How to enable Ctrl+C and Ctrl+V in WSL?
-Open your WSL Terminal Window.
-Right Click on the title bar.
-Click on Properties menu.
-Under Options, Tick the Use Ctrl+Shift+C/V as Copy/Paste.
+  * https://docs.microsoft.com/en-us/windows/wsl/install
 
-Install chocolatey
-https://chocolatey.org/install
+### How to enable Ctrl+C and Ctrl+V in WSL?
 
-Install Chromium
-choco install chromium
+  * Open your WSL Terminal Window.
+  * Right Click on the title bar.
+  * Click on Properties menu.
+  * Under Options, Tick the Use Ctrl+Shift+C/V as Copy/Paste.
 
-Vagrant + Virtualbox?
-https://www.vagrantup.com/docs/other/wsl
-https://thedatabaseme.de/2022/02/20/vagrant-up-running-vagrant-under-wsl2/
+## Install chocolatey
 
-Docker Desktop
-choco install docker-desktop
-Start docker Desktop
-Settings - General - use wsl2
+  * https://chocolatey.org/install
 
-Visual Studio Code
-choco install VisualStudioCode
-https://docs.microsoft.com/de-de/windows/wsl/tutorials/wsl-vscode
-https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack
-https://docs.microsoft.com/de-de/windows/wsl/tutorials/wsl-git
+## Install Chromium
 
-Sourcetree or 
+  * choco install chromium
+
+## Vagrant + Virtualbox?
+DO NOT INSTALL YET
+
+  * https://www.vagrantup.com/docs/other/wsl
+  * https://thedatabaseme.de/2022/02/20/vagrant-up-running-vagrant-under-wsl2/
+
+## Docker Desktop
+
+  * choco install docker-desktop
+  * Start docker Desktop
+  * Settings - General - use wsl2
+
+## Visual Studio Code
+
+  * choco install VisualStudioCode
+  * install remote extensionpack
+  * https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack
+
+### Some helpful VSCode tutorials
+
+  * https://docs.microsoft.com/de-de/windows/wsl/tutorials/wsl-vscode
+  * https://docs.microsoft.com/de-de/windows/wsl/tutorials/wsl-git
+
+## GIT UI
+
+Not solved yet
