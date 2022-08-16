@@ -3,7 +3,14 @@ The perfect windows setup for developing with containers
 
 ## Install WSL2
 
-  * https://docs.microsoft.com/en-us/windows/wsl/install
+https://docs.microsoft.com/en-us/windows/wsl/install
+
+  * Press Win Key + X and select "Windows PowerShell (Admin)"
+  * Run the WSL2 installer
+  
+```
+wsl --install -d Ubuntu-20.04
+```
 
 ### How to enable Ctrl+C and Ctrl+V in WSL?
 
