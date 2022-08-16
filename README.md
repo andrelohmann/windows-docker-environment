@@ -12,6 +12,13 @@ https://docs.microsoft.com/en-us/windows/wsl/install
 wsl --install -d Ubuntu-20.04
 ```
 
+  * set your wsl username and password properly
+  * verify, you are working on WSL version 2
+
+```
+wsl -l -v
+```
+
 ### How to enable Ctrl+C and Ctrl+V in WSL?
 
   * Open your WSL Terminal Window.
